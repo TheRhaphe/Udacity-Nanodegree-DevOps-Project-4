@@ -1,0 +1,22 @@
+Hp@DESKTOP-JEEVSB1 MINGW64 ~/PycharmProjects/DevOps_Microservices/project-ml-microservice-kubernetes (master)$ ./run_kubernetes.sh
+NAME                                READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/udacity-project-4   1/1     1            1           40m
+
+NAME                                          DESIRED   CURRENT   READY   AGE
+replicaset.apps/udacity-project-4-95867d5c7   1         1         1       40m
+
+NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
+service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   4h32m
+
+NAME                                    READY   STATUS     RESTARTS   AGE
+pod/udacity-project-4-95867d5c7-bs6fh   1/1     Running    0          40m
+Name of the Pod: udacity-project-4-95867d5c7-bs6fh
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+
+Hp@DESKTOP-JEEVSB1 MINGW64 ~/PycharmProjects/DevOps_Microservices/project-ml-microservice-kubernetes (master)$ ./make_prediction.sh
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
