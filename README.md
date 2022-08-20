@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![TheRhaphe](https://circleci.com/gh/TheRhaphe/Udacity-Nanodegree-DevOps-Project-4.svg?style=svg)](https://app.circleci.com/pipelines/github/TheRhaphe/Udacity-Nanodegree-DevOps-Project-4)
 
 ## Project Overview
 
